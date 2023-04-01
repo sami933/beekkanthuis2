@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+body{
+    background-color:#eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding-right: 7%;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgb(77, 77, 77);
+    padding: 0 1%;
+    line-height: 80px;
+    transition: ease-in-out 0.3s;
+    float: right;
+}
+
+ul li:hover{
+    background-color: rgb(141, 141, 141);
+}
+
+ul li a {
+    text-decoration: none;
+    display:block;
+    color: white;
+    font-size: 25px;
+    font-family: 'Glory', sans-serif;
+}
+
+.naam{
+    float: left;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1% 1%;
+    font-family: 'Glory', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(77, 77, 77);
+    position: fixed;
+}
+
+p {
+    font-size: 25px;
+    
+    font-family: 'Glory', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.image{
+    width: 30%;
+    padding: 20px 10px;
+}
+
+.image2{
+    width: 30%;
+    padding: 20px 10px;
+}
+
+.asnee{
+    width: 100%;
+}
+
+.een{
+    width: 27%;
+    padding: 20px 10px 20px 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(97, 97, 97);
+    font-family: 'Glory', sans-serif;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+    font-family: 'Glory', sans-serif;
+}
+
+
+
+.afbeeldingen{
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.plus{
+    display: inline-block;
+    width: 33%;
+}
+
+hr{
+    width: 8%;
+    margin: auto;
+    border-top: 2px solid #5c5c5c;
+}
+
+.beste{
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+   ul li a{
+       font-size: 19px;
+   }
+   ul li{
+       padding: 0 3%;
+   }
+   ul{
+       display: flex;
+       justify-content: center;
+       padding-right: 0%;
+   }
+   .image{
+       width: 80%;
+   }
+   .image2{
+       display: none;
+   }
+   .naam{
+       display: none;
+   }
+   .plus{
+       display: block;
+       width: 90%;
+       padding-left: 5%;
+       padding-right: 5%;
+       padding-bottom: 5%;
+   }
+   .een{
+       width: 100%;
+       display: block;
+   }
+   .afbeeldingen{
+       display: block;
+       padding-right: 10%;
+       padding-left: 10%;
+   }
+
+   .probeer{
+       width: 90%;
+       padding-left: 5%;
+   }
+}
